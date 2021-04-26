@@ -1,23 +1,19 @@
 <template>
-  <div id="index">
+  <div id="login">
     <input type="button" v-model="value" @click="go">
   </div>
 </template>
 <script>
-
 export default {
   name:'index',
   data(){
     return {
-      value:'点击跳转login'
+      value:'点击跳转index'
     }
-  },
-  mounted:function(){
-    alert(12)
   },
   methods:{
     go(){
-      location.href = '/subscribe/sub-list.html'
+      location.href = '/index/index.html'
     }
   }
 }
