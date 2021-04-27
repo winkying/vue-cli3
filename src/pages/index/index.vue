@@ -13,7 +13,7 @@ export default {
     }
   },
   mounted:function(){
-    
+    console.log(Vue.allUrl.queryAgreement)
   },
   methods:{
     go(){

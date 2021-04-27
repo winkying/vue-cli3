@@ -12,11 +12,11 @@ const pages = function(){
     // let fileDirName = file.match(/\/([^/]+)\/index.js/i)[1]
     // console.log(file)
     let fullPath = file.split('pages/')[1]
-    console.log(fullPath)
+    // console.log(fullPath)
     let fileDir = fullPath.split('/index.js')[0]
     let fName = fullPath.match(/([^/]+)\/index.js/i)[1]
-    console.log(fileDir)
-    console.log(fName)
+    // console.log(fileDir)
+    // console.log(fName)
     entryMap[fName] = {
       entry:`src/pages/${fileDir}`,
       template:'public/index.html',
