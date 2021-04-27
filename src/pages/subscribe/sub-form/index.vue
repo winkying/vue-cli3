@@ -13,7 +13,7 @@ export default {
   },
   methods:{
     go(){
-      location.href = '/index/index.html'
+      location.href = '/index.html'
     }
   }
 }

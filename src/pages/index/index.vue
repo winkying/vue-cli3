@@ -13,7 +13,7 @@ export default {
     }
   },
   mounted:function(){
-    alert(12)
+    
   },
   methods:{
     go(){
